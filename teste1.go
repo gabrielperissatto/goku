@@ -1,4 +1,4 @@
-//Print sem '}'
+//main sem '}'
 package main
 
 import "fmt"
