@@ -1,4 +1,4 @@
-//Declaração e atribuição de variável, Declaração curta e Prints
+//Declaração e atribuição de variável, Declaração curta e Variável inútil
 package main
 
 import "fmt"
@@ -8,5 +8,4 @@ func main() {
 	a = 10
 	b := 5
 	fmt.Println(a)
-	fmt.Println(b)
 }
