@@ -1,11 +1,20 @@
-//Variável inútil
+//Função dentro de função
 package main
 
 import "fmt"
 
-func main() {
-	var x int
+var x int
+
+func f() {
 	x = 123
-	y := 321
+	g := func() {
+		y := 321
+		fmt.Println(y)
+	}
+	g()
+}
+
+func main() {
+	f()
 	fmt.Println(x)
 }
